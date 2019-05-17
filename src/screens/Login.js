@@ -79,7 +79,7 @@ class Login extends Component {
     };
     componentDidMount() {
         console.log('componentDidMount');
-        let person = localStorage.getItem('email');
+        let person = localStorage.getIte    m('email');
         if(person !== null){
             this.setState({
                 isUserlogin:true
